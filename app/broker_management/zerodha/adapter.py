@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import Any
-from app.brokers.base import BaseBrokerAdapter
+from app.broker_management.base import BaseBrokerAdapter
 
 
 class ZredaAdapter(BaseBrokerAdapter):

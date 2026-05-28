@@ -1,5 +1,5 @@
 from __future__ import annotations
-from app.brokers.base import BaseBrokerAdapter
+from app.broker_management.base import BaseBrokerAdapter
 
 
 class UpstoxAdapter(BaseBrokerAdapter):

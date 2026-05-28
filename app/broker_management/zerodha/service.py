@@ -1,7 +1,7 @@
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
-from app.brokers.zerodha.adapter import ZredaAdapter
+from app.broker_management.zerodha.adapter import ZredaAdapter
 
 
 class ZredaService:

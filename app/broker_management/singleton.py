@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any, Optional
 
-from app.brokers.groww.groww_service import GrowwService
+from app.broker_management.groww.groww_service import GrowwService
 
 _broker_singletons: dict[str, Any] = {}
 

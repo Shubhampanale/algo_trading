@@ -8,17 +8,17 @@ from sqlalchemy.orm import Session
 from app.core.config import settings
 from app.db.models import BrokerAccount, User
 
-from app.brokers.singleton import (
+from app.broker_management.singleton import (
     get_all_broker_singletons,
     init_groww_broker_singleton,
     set_broker_singleton,
 )
 
-from app.brokers.upstox.adapter import UpstoxAdapter
-from app.brokers.upstox.service import UpstoxService
+from app.broker_management.upstox.adapter import UpstoxAdapter
+from app.broker_management.upstox.service import UpstoxService
 
-from app.brokers.zerodha.adapter import ZredaAdapter
-from app.brokers.zerodha.service import ZredaService
+from app.broker_management.zerodha.adapter import ZredaAdapter
+from app.broker_management.zerodha.service import ZredaService
 
 # =========================================================
 # ENV CREDENTIALS

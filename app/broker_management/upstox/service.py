@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from app.brokers.upstox.adapter import UpstoxAdapter
+from app.broker_management.upstox.adapter import UpstoxAdapter
 
 
 class UpstoxService:

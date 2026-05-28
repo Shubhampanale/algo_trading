@@ -11,7 +11,7 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Optional
 
-from app.brokers.groww.adapter import GrowwAdapter
+from app.broker_management.groww.adapter import GrowwAdapter
 
 
 # ── In-process adapter cache ──────────────────────────────────────────────────

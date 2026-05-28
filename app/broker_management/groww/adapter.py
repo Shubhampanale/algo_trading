@@ -1,8 +1,8 @@
 from datetime import datetime, timedelta
 from growwapi.groww.exceptions import BaseGrowwException
 
-from app.brokers.base import BaseBrokerAdapter
-from app.brokers.groww.auth import fetch_token_and_profile, init_sdk_client
+from app.broker_management.base import BaseBrokerAdapter
+from app.broker_management.groww.auth import fetch_token_and_profile, init_sdk_client
 
 
 class GrowwAdapter(BaseBrokerAdapter):

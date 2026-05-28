@@ -3,7 +3,7 @@ from __future__ import annotations
 import time
 from typing import Any, Optional
 
-from app.brokers.singleton import get_broker_singleton
+from app.broker_management.singleton import get_broker_singleton
 from app.core.redis import redis_client
 
 

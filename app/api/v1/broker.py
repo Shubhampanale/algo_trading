@@ -8,7 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel
 from typing import Optional
 
-from app.brokers.groww.groww_service import GrowwService, clear_cache
+from app.broker_management.groww.groww_service import GrowwService, clear_cache
 
 router = APIRouter(prefix="/groww", tags=["Groww"])
 

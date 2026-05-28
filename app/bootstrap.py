@@ -4,7 +4,7 @@ from app.core.config import settings
 from app.core.redis import redis_client
 from app.db.init_db import init_db
 from app.db.session import engine, SessionLocal
-from app.brokers.manager import connect_configured_brokers
+from app.broker_management.manager import connect_configured_brokers
 
 
 @asynccontextmanager
