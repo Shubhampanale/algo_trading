@@ -1,7 +1,7 @@
-from .market_data import InputDataRequest, MarketDataProvider, build_input_data
+from .market_data import InputDataRequest, MarketDataProvider, build_market_data
 
 __all__ = [
     "InputDataRequest",
     "MarketDataProvider",
-    "build_input_data",
+    "build_market_data",
 ]

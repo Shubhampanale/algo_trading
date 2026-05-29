@@ -100,7 +100,7 @@ def _strike_triplet(symbol: str, atm_strike: int) -> dict[str, int]:
     }
 
 
-def build_input_data(provider: MarketDataProvider, req: InputDataRequest) -> dict[str, Any]:
+def build_market_data(provider: MarketDataProvider, req: InputDataRequest) -> dict[str, Any]:
     """
     Build the input JSON structure using provider as data source.
 

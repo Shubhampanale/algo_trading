@@ -24,6 +24,14 @@ class Settings(BaseSettings):
     UPSTOX_API_KEY: str | None = None
     UPSTOX_API_SECRET: str | None = None
 
+    # Input data polling worker (optional)
+    MARKET_DATA_WORKER_ENABLED: bool = False
+    MARKET_DATA_SYMBOL: str | None = None
+    MARKET_DATA_EXCHANGE: str | None = "NSE"
+    MARKET_DATA_EXPIRY: str | None = None
+    MARKET_DATA_TIMEFRAME: str = "1m"
+    MARKET_DATA_INTERVAL_SECONDS: float = 3.0
+
     model_config = SettingsConfigDict(
         env_file=".env",
         extra="ignore"
